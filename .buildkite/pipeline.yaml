@@ -3,4 +3,31 @@ description: |
   Learning to :pipeline: is fun.
 steps:
 - label: ":pipeline:"
-  command: buildkite-agent pipeline upload .buildkite/pipeline.*.yml
+  command: buildkite-agent pipeline upload .buildkite/pipeline.ask-for-steps-and-create-new-pipeline.yml
+- label: ":pipeline:"
+  command: buildkite-agent pipeline upload .buildkite/pipeline.ask-for-steps.yml
+- label: ":pipeline:"
+  command: buildkite-agent pipeline upload .buildkite/pipeline.ask-to-continue.yml
+- label: ":pipeline:"
+  command: buildkite-agent pipeline upload .buildkite/pipeline.dynamic-steps-from-env-var.yml
+- label: ":pipeline:"
+  command: buildkite-agent pipeline upload .buildkite/pipeline.dynamic-steps.yml
+- label: ":pipeline:"
+  command: buildkite-agent pipeline upload .buildkite/pipeline.image-artifacts.yml
+- label: ":pipeline:"
+  command: buildkite-agent pipeline upload .buildkite/pipeline.pass-random-number-depends-on.yml
+- label: ":pipeline:"
+  command: buildkite-agent pipeline upload .buildkite/pipeline.pass-random-number-docker-os-linux.yml
+- label: ":pipeline:"
+  command: buildkite-agent pipeline upload .buildkite/pipeline.pass-random-number-docker.yml
+- label: ":pipeline:"
+  command: buildkite-agent pipeline upload .buildkite/pipeline.pass-random-number.yml
+- label: ":pipeline:"
+  command: buildkite-agent pipeline upload .buildkite/pipeline.show-environment-docker-compose.yml
+- label: ":pipeline:"
+  command: buildkite-agent pipeline upload .buildkite/pipeline.show-environment-docker.yml
+- label: ":pipeline:"
+  command: buildkite-agent pipeline upload .buildkite/pipeline.show-environment.yml
+- label: ":pipeline:"
+  command: buildkite-agent pipeline upload .buildkite/pipeline.watch-github-release.yml
+  
